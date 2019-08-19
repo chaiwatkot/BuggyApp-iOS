@@ -45,4 +45,20 @@ class MusicTrackDetailViewController: UIViewController {
     guard let date = dateFormatter.date(from: dateString) else { return "N/A" }
     return dateFormatter.string(from: date)
   }
+    
+    
 }
+//extension MusicTracksViewController: UITableViewDataSource {
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        print("ssssss111111")
+//        return tracks!.count
+//    }
+//    
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "TrackTableViewCell", for: indexPath) as? TrackTableViewCell
+//        print("sssssssss")
+//        if let track: Track = tracks![indexPath.item]{
+//            cell!.configCell(track: track)}
+//        return cell!
+//    }
+//}

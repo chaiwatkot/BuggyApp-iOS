@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		438AB06F230A8F83007ADA4A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 438AB06E230A8F83007ADA4A /* Podfile */; };
+		438AB071230AA73D007ADA4A /* ThirdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438AB070230AA73D007ADA4A /* ThirdDetailViewController.swift */; };
 		67BF3DA3C0B23932733B9107 /* Pods_BuggyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96678414E5A2A7BB58448564 /* Pods_BuggyApp.framework */; };
 		AE2873C822CA78E0004B4671 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2873C722CA78E0004B4671 /* TrackTableViewCell.swift */; };
 		AE2873CA22CA8B7B004B4671 /* MusicTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2873C922CA8B7B004B4671 /* MusicTracksViewController.swift */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		3A6D13EE01A0440D37FD3FE1 /* Pods-BuggyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuggyAppTests.release.xcconfig"; path = "Target Support Files/Pods-BuggyAppTests/Pods-BuggyAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3B460585BBA02A6B2984F37B /* Pods-BuggyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuggyApp.debug.xcconfig"; path = "Target Support Files/Pods-BuggyApp/Pods-BuggyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		438AB06E230A8F83007ADA4A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		438AB070230AA73D007ADA4A /* ThirdDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdDetailViewController.swift; sourceTree = "<group>"; };
 		55F06A15BC6F80C68E57AD54 /* Pods-BuggyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuggyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BuggyAppTests/Pods-BuggyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		662E6907135100BC9FA04336 /* Pods_BuggyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuggyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7274C5F7029EB10AD8B0087D /* Pods-BuggyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuggyApp.release.xcconfig"; path = "Target Support Files/Pods-BuggyApp/Pods-BuggyApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 		BF1E2B0B22C5CEE800C65524 = {
 			isa = PBXGroup;
 			children = (
+				438AB06E230A8F83007ADA4A /* Podfile */,
 				BF1E2B1622C5CEE800C65524 /* BuggyApp */,
 				BF1E2B2D22C5CEEA00C65524 /* BuggyAppTests */,
 				BF1E2B1522C5CEE800C65524 /* Products */,
@@ -133,7 +138,6 @@
 				BFEFE82122C60BFF00A3B7EB /* ApiManager.swift */,
 				BFEFE82322C60CD800A3B7EB /* Model.swift */,
 				BFEFE82B22C6213500A3B7EB /* ViewControllers */,
-				BFEFE82722C620DD00A3B7EB /* Storyboards */,
 				BF1E2B2022C5CEEA00C65524 /* Assets.xcassets */,
 				BF1E2B2222C5CEEA00C65524 /* LaunchScreen.storyboard */,
 				BF1E2B2522C5CEEA00C65524 /* Info.plist */,
@@ -170,6 +174,8 @@
 				AE2873C922CA8B7B004B4671 /* MusicTracksViewController.swift */,
 				AE2873CB22CA8BA7004B4671 /* MusicTrackDetailViewController.swift */,
 				BF1E2B4122C5D69500C65524 /* ThirdViewController.swift */,
+				438AB070230AA73D007ADA4A /* ThirdDetailViewController.swift */,
+				BFEFE82722C620DD00A3B7EB /* Storyboards */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 				BF1E2B1F22C5CEE800C65524 /* Main.storyboard in Resources */,
 				BFEFE83322C621DC00A3B7EB /* Second.storyboard in Resources */,
 				BFEFE83422C621DC00A3B7EB /* Third.storyboard in Resources */,
+				438AB06F230A8F83007ADA4A /* Podfile in Resources */,
 				BFEFE83222C621DC00A3B7EB /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +357,7 @@
 				AE2873CC22CA8BA7004B4671 /* MusicTrackDetailViewController.swift in Sources */,
 				AE2873CA22CA8B7B004B4671 /* MusicTracksViewController.swift in Sources */,
 				AE2873C822CA78E0004B4671 /* TrackTableViewCell.swift in Sources */,
+				438AB071230AA73D007ADA4A /* ThirdDetailViewController.swift in Sources */,
 				BFEFE82222C60BFF00A3B7EB /* ApiManager.swift in Sources */,
 				BFEFE82622C615A400A3B7EB /* CurrencyCell.swift in Sources */,
 				BF1E2B4222C5D69500C65524 /* ThirdViewController.swift in Sources */,

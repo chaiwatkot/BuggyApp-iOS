@@ -9,10 +9,13 @@
 import UIKit
 
 class ThirdDetailViewController: UIViewController {
+    
+    @IBOutlet weak var mNameLabel:UILabel!
+    var mNameWelcome:String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.mNameLabel.text = mNameWelcome
         // Do any additional setup after loading the view.
     }
     
