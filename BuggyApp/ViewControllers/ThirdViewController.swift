@@ -21,17 +21,11 @@ class ThirdViewController: UIViewController,UITextFieldDelegate {
     // Do any additional setup after loading the view.
   }
     
-    private func textFieldShouldReturn(textField: UITextField) -> Bool {
-        print("ssssssssssssssssssssssss")
-        goTo()
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        view.endEditing(true)
+        self.performSegue(withIdentifier: "showWelcome", sender: mNameTextField.text)
         return true
     }
-    
-    func goTo(){
-        self.performSegue(withIdentifier: "showWelcome", sender: mNameTextField.text)
-
-    }
-
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showWelcome"{
